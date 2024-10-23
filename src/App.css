@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+
+/**********************************************/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes flash {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.diwali-offer {
+  animation: flash 2s infinite;
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+.animate-flash {
+  animation: flash 2s infinite;
+}
+
+/* Adjust the size of the previous and next buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #848485;
+  width: 30px; /* Custom width */
+  height: 60px; /* Custom height */
+  font-size: 14px; /* Font size */
+  background-color: #fff;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+/* Optional: Adjust the arrow icon size */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 14px; /* Arrow icon size */
+  font-weight: bold;
+}
+
+.swiper-button-prev{
+  left: 0px;
+}
+
+.swiper-button-next{
+  right: 0px;
+}

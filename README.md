@@ -2,6 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# E-Commerce Site
+
+This is a React-based e-commerce site project designed to display products, handle pagination, show product details, and more.
+
+## Project Setup
+
+Follow these steps to get the project up and running on your local machine.
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or above)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- A code editor (e.g., [VSCode](https://code.visualstudio.com/))
+
+### Installation
+
+1. **Clone the repository** (or download it) and navigate to the project directory.
+
+```bash
+cd C:/Users/HP/Desktop/BirdVisionProject/e-commerce-site
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -68,3 +91,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
